@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main(){
+    int i=1;
+    int even=0;
+    int odd=0;
+    int n;
+    printf("enter a no.");
+    scanf("%d",&n);
+    while(i<=n){
+        if(i%2==0){
+            even=even+i;
+            i++;
+            
+        }
+        else{
+            odd=odd+i;
+            i++;
+            
+        }
+    }
+    printf("%d\n",even);
+    printf("%d",odd);
+    return 0;
+}
+   
